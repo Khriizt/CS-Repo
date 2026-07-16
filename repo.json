@@ -1,0 +1,9 @@
+{
+  "name": "Repo for Mr Robiin",
+  "description": "Repo movies, series, tv and more for Mr Robiin",
+  "iconUrl": "https://raw.githubusercontent.com/redblacker8/storm-ext/master/assets/repoIcon.jpg",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/Khriizt/CS-Repo/builds/plugins.json"
+  ]
+}
