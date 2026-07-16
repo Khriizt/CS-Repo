@@ -15,7 +15,7 @@ import org.jsoup.nodes.Element
 
 class CineHdPlusProvider : MainAPI() {
     override var mainUrl = "https://cinehdplus.org"
-    override var name = "CineHdPlus"
+    override var name = "Hulu"
     override var lang = "mx"
     override val hasMainPage = true
     override val hasChromecastSupport = true
