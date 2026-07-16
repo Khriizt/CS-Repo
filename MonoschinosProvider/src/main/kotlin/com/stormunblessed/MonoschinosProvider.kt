@@ -21,8 +21,8 @@ class MonoschinosProvider : MainAPI() {
     )
 
     override val mainPage = mainPageOf(
-        "" to "Últimos capítulos",
-        "animes" to "Catálogo",
+        "/emision" to "Últimos capítulos",
+        "/animes" to "Catálogo",
     )
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
