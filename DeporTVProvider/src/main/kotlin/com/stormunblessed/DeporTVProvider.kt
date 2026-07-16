@@ -190,7 +190,8 @@ class DeporTVProvider : MainAPI() {
     val defaultPoster = "https://new.tvpublica.com.ar/wp-content/uploads/2021/05/DeporTVOK.jpg"
 
     override val mainPage = mainPageOf(
-        "es/agenda/" to "Agenda",
+        "/schedule" to "Agenda",
+        "es/agenda/" to "Repeticiones",
     )
 
     suspend fun followRedirects(url: String): String {
