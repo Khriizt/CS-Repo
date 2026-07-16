@@ -13,7 +13,7 @@ import kotlinx.coroutines.launch
 
 class LaMovieProvider : MainAPI() {
     override var mainUrl = "https://lamovie.org"
-    override var name = "LaMovie"
+    override var name = "Prime Video"
     override var lang = "mx"
     override val hasMainPage = true
     override val hasChromecastSupport = true
