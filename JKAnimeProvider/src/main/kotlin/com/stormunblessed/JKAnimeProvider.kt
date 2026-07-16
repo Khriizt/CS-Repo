@@ -31,8 +31,8 @@ class JKAnimeProvider : MainAPI() {
     }
 
     override var mainUrl = "https://jkanime.net"
-    override var name = "JKAnime"
-    override var lang = "es"
+    override var name = "Crunchyroll"
+    override var lang = "mx"
     override val hasMainPage = true
     override val hasChromecastSupport = true
     override val hasDownloadSupport = true
@@ -63,9 +63,13 @@ class JKAnimeProvider : MainAPI() {
 
     override suspend fun getMainPage(page: Int, request : MainPageRequest): HomePageResponse {
         val urls = listOf(
-            Pair(
+                Pair(
                 "$mainUrl/directorio?filtro=popularidad&estado=emision",
                 "En emisión"
+            ),
+            Pair(
+                "$mainUrl/top",
+                "Top Animes"
             ),
             Pair(
                 "$mainUrl/directorio?filtro=popularidad&tipo=animes",
