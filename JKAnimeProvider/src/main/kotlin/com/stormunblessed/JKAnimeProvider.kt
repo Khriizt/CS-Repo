@@ -67,6 +67,10 @@ class JKAnimeProvider : MainAPI() {
                 "$mainUrl/directorio?filtro=popularidad&estado=emision",
                 "En emisión"
             ),
+                Pair(
+                "$mainUrl/directorio?filtro=popularidad&tipo=peliculas",
+                "Películas"
+            ),
             Pair(
                 "$mainUrl/top",
                 "Top Animes"
@@ -74,10 +78,6 @@ class JKAnimeProvider : MainAPI() {
             Pair(
                 "$mainUrl/directorio?filtro=popularidad&tipo=animes",
                 "Animes"
-            ),
-            Pair(
-                "$mainUrl/directorio?filtro=popularidad&tipo=peliculas",
-                "Películas"
             ),
         )
 
